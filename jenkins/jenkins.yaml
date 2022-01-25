@@ -53,7 +53,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: jenkins
+        namespace: flux-system
       interval: 1m
   values:
     replicaCount: 1
